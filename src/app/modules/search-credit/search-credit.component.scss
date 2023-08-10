@@ -1,0 +1,30 @@
+.search-content {
+    text-align: center;
+    font-size: 16px;
+    color: #021442;
+
+    ion-card {
+        background-color: #FCF8EA;
+        color: #021442;
+        font-size: 24px;
+        text-align: center !important;
+        margin: 30px;
+    }
+
+    .circle {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #DF512C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2% 0;
+    }
+
+    .number {
+        font-size: 24px;
+        color: white;
+        position: absolute;
+    }
+}

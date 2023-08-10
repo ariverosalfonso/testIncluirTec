@@ -1,0 +1,23 @@
+$background-color: #E6FBFF;
+
+.req-content {
+    background-color: $background-color;
+    color: #021442;
+    text-align: center;
+    padding: 25px;
+
+    ion-card {
+        border-radius: 40px;
+        box-shadow: none;
+    }
+
+    img {
+        border-radius: 40%;
+        margin-bottom: 20px;
+    }
+
+    ion-item {
+        --border-color: white;
+        color: #021442;
+    }
+}

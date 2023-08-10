@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-icon name="ellipsis-horizontal-outline" slot="start"></ion-icon>
+    <ion-button slot="end" shape="round" class="btn-header">
+      ¡Solicita tu credito!
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-fab slot="fixed" horizontal="end" vertical="bottom">
+    <ion-fab-button>
+      <ion-icon name="person-outline"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="top">
+      <ion-fab-button>
+        <ion-icon name="logo-whatsapp" color="success"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button>
+        <ion-icon name="call-outline" color="warning"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+
+  </ion-fab>
+  <app-principal-information></app-principal-information>
+  <app-req-information></app-req-information>
+  <app-search-credit></app-search-credit>
+  <app-available-zone></app-available-zone>
+  <app-business-support></app-business-support>
+  <app-need-help></app-need-help>
+</ion-content>
